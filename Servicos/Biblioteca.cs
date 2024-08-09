@@ -4,11 +4,13 @@ using POO_E2.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace POO_E2.Servicos
 {
+    // Servicos implementa a lógica da aplicacao
     // Classe que gerencia a biblioteca e as reservas de livros
     public class Biblioteca : IManterReserva
     {
@@ -18,12 +20,19 @@ namespace POO_E2.Servicos
 
         private Log log;            // Instância para registrar logs de operações
 
-        // Construtor para inicializar a biblioteca
+        // Construtor para inicializar a biblioteca com dados predefinidos
         public Biblioteca()
         {
+            var professor1 = new Professor("Pedro", 123);
+            var livro1 = new Livro("Titulo", "Titulo", professor1);
             livros = new List<Livro>();
+            livros.Add(livro1);
+            var estudante1 = new Estudante("paulo", 456);
             estudantes = new List<Estudante>();
+            estudantes.Add(estudante1);
+            var reserva1 = new Reserva(livro1, estudante1, professor1);
             reservas = new List<Reserva>();
+            reservas.Add(reserva1);
             log = new Log(); // Cria uma instância de RegistroLog para registrar eventos
         }
 

@@ -17,7 +17,7 @@ Livro livro = new Livro("Aprendizado C#", "Pedro Oliveira", professor);
 Console.WriteLine("Bem-vindo ao Sistema de Biblioteca Escolar!");
 Console.WriteLine($"Professor: {professor.Nome}, Matrícula: {professor.Matricula}");
 Console.WriteLine($"Estudante: {estudante.Nome}, Matrícula: {estudante.Matricula}");
-Console.WriteLine($"Livro: {livro.Titulo}, Autor: {livro.Autor}, Professor Responsável: {livro.Professor.Nome}");
+Console.WriteLine($"Livro: {livro.Titulo}, Autor: {livro.Autor}, Professor Responsável: {professor.Nome}");
 Console.WriteLine();
 
 // Reservar um livro

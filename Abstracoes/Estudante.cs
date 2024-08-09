@@ -9,8 +9,8 @@ namespace POO_E2.Abstracoes
     // Classe que representa um estudante da escola
     public class Estudante
     {
-        public string Nome { get; set; }   // Nome do estudante
-        public int Matricula { get; set; } // Número de matrícula do estudante
+        public string Nome { get; set; }   // Propriedade 
+        public int Matricula { get; set; } // Propriedade 
 
         // Construtor para inicializar um novo estudante
         public Estudante(string nome, int matricula)
