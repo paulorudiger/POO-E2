@@ -1,0 +1,8 @@
+08/08/2024 23:05:33: Sistema de biblioteca inicializado.
+08/08/2024 23:05:33: Reserva: Livro 'Aprendizado C#' reservado por Ana Souza com o professor João Silva.
+08/08/2024 23:05:33: Reserva cancelada: Livro 'Aprendizado C#' por Ana Souza.
+08/08/2024 23:05:33: Devolução: Livro 'Aprendizado C#' devolvido por Ana Souza.
+08/08/2024 23:21:50: Sistema de biblioteca inicializado.
+08/08/2024 23:21:50: Reserva: Livro 'Aprendizado C#' reservado por Ana Souza com o professor João Silva.
+08/08/2024 23:21:50: Reserva cancelada: Livro 'Aprendizado C#' por Ana Souza.
+08/08/2024 23:21:50: Devolução: Livro 'Aprendizado C#' devolvido por Ana Souza.
