@@ -36,14 +36,7 @@ namespace POO_E2.Servicos
             log = new Log(); // Cria uma instância de RegistroLog para registrar eventos
         }
 
-        // Método para inicializar a biblioteca com dados básicos
-        public void Inicializar()
-        {
-            // Inicialização dos dados
-            log.GravarLog("Sistema de biblioteca inicializado.");
-        }
-
-        // Implementação do método da interface para reservar um livro para um estudante
+            // Implementação do método da interface para reservar um livro para um estudante
         public void ReservarLivro(Livro livro, Estudante estudante, Professor professor)
         {
             Reserva reserva = new Reserva(livro, estudante, professor); // Cria uma nova reserva

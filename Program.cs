@@ -6,7 +6,6 @@ Console.WriteLine("Hello, World!");
 
 // Inicializa a biblioteca
 Biblioteca biblioteca = new Biblioteca();
-biblioteca.Inicializar();
 
 // Criação de exemplos
 Professor professor = new Professor("João Silva", 123); // Adiciona matrícula ao professor
@@ -14,7 +13,6 @@ Estudante estudante = new Estudante("Ana Souza", 456);
 Livro livro = new Livro("Aprendizado C#", "Pedro Oliveira", professor);
 
 // Exibe informações iniciais
-Console.WriteLine("Bem-vindo ao Sistema de Biblioteca Escolar!");
 Console.WriteLine($"Professor: {professor.Nome}, Matrícula: {professor.Matricula}");
 Console.WriteLine($"Estudante: {estudante.Nome}, Matrícula: {estudante.Matricula}");
 Console.WriteLine($"Livro: {livro.Titulo}, Autor: {livro.Autor}, Professor Responsável: {professor.Nome}");

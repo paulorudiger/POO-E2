@@ -10,3 +10,6 @@
 09/08/2024 18:35:38: Reserva: Livro 'Aprendizado C#' reservado por Ana Souza com o professor João Silva.
 09/08/2024 18:35:38: Reserva cancelada: Livro 'Aprendizado C#' por Ana Souza.
 09/08/2024 18:35:38: Devolução: Livro 'Aprendizado C#' devolvido por Ana Souza.
+09/08/2024 19:23:38: Reserva: Livro 'Aprendizado C#' reservado por Ana Souza com o professor João Silva.
+09/08/2024 19:23:38: Reserva cancelada: Livro 'Aprendizado C#' por Ana Souza.
+09/08/2024 19:23:38: Devolução: Livro 'Aprendizado C#' devolvido por Ana Souza.
